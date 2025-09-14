@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Delivery Food</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-box">
-                <div class="header-logo logo">
-                   <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
-                </div>
-                <div class="header-controls"></div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div class="container">
-            <h1>Рестораны</h1>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-box">
-                <div class="footer-logo logo">
-                    <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
-                </div>
-                <div class="footer-nav"></div>
-                <div class="footer-social"></div>
-            </div>
 
-        </div>
-    </footer>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-box">
+                    <div class="header-logo logo">
+                        <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
+                    </div>
+                    <div class="header-controls">
+                        <button class="btn btn-primary">
+                            <img src="images/person.svg" alt="Иконка Войти">
+                            Войти
+                        </button>
+                        <button class="btn btn-outline">
+                            <img src="images/basket.svg" alt="Иконка Корзина">
+                            Корзина
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="top">
+                    <h1>Онлайн-сервис доставки еды на дом</h1>
+                    <p>Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+                </section>
+                <div class="main-heading">
+                    <h1>Рестораны</h1>
+                    <search></search>
+                </div>
+                <div class="listing">
+                    <div class="listing-item"></div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-box">
+                    <div class="footer-logo logo">
+                        <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
+                    </div>
+                        <nav class="footer-nav">
+                            <ul class="footer-nav__list">
+                                <li>Ресторанам
+                                </li>
+                                <li>Курьерам
+                                </li>
+                                <li>Пресс-центр
+                                </li>
+                                <li>Контакты</li>
+                            </ul>
+                        </nav>
+                    <div class="footer-social">
+                        <img class="footer-social-image" src="images/social/insta.png" alt="insta" width="25" height="25">
+                         <img class="footer-social-image" src="images/social/fb.png" alt="fb" width="25" height="25">
+                          <img class="footer-social-image" src="images/social/vk.png" alt="vk" width="25" height="25">
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
