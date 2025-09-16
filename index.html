@@ -14,9 +14,9 @@
         <header class="header">
             <div class="container">
                 <div class="header-box">
-                    <div class="header-logo logo">
+                    <a class="header-logo logo" href="./index.html">
                         <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
-                    </div>
+                    </a>
                     <div class="header-controls">
                         <button class="btn btn-primary">
                             <img src="images/person.svg" alt="Иконка Войти">
@@ -31,34 +31,295 @@
             </div>
         </header>
         <main>
-
             <section class="banner">
                 <div class="container">
                     <div class="banner-item">
                         <h2 class="banner-item--title">Онлайн-сервис <br> доставки еды на&nbsp;дом</h2>
-                        <p class="banner-item--subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
+                        <p class="banner-item--subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске
+                            и с антисептиком</p>
                     </div>
                 </div>
 
             </section>
-            <div class="products">
+            <section class="products">
                 <div class="container">
                     <div class="products-header">
                         <h3 class="products-header--title">Рестораны</h3>
-                        <input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов"></input>
+                        <input type="text" class="products-header--search"
+                            placeholder="Поиск блюд и ресторанов"></input>
+                    </div>
+                    <div class="products-wrapper">
+                        <a class="products-card" href="./goods.html">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-1.jpg" alt="Изображение Пицца плюс" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">Пицца плюс</h4>
+                                    <div class="products-card__desription--bage">
+                                        50 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 900 ₽</div>
+                                    <div class="products-card__desription-info--group">Пицца </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a class="products-card" href="./goods.html">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-2.jpg" alt="Изображение Тануки" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">Тануки</h4>
+                                    <div class="products-card__desription--bage">
+                                        50 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 900 ₽</div>
+                                    <div class="products-card__desription-info--group">Пицца </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a class="products-card" href="./goods.html">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-3.jpg" alt="Изображение FoodBand" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">FoodBand</h4>
+                                    <div class="products-card__desription--bage">
+                                        50 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 900 ₽</div>
+                                    <div class="products-card__desription-info--group">Пицца </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <a class="products-card" href="./goods.html">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-4.jpg" alt="Изображение Жадина-пицца" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">Жадина-пицца</h4>
+                                    <div class="products-card__desription--bage">
+                                        50 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 900 ₽</div>
+                                    <div class="products-card__desription-info--group">Пицца </div>
+                                </div>
+
+                            </div>
+                        </a>
+                       <a class="products-card" href="./goods.html">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-5.jpg" alt="Изображение Пицца плюс" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">Точка еды</h4>
+                                    <div class="products-card__desription--bage">
+                                        50 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 1200 ₽</div>
+                                    <div class="products-card__desription-info--group">Роллы </div>
+                                </div>
+
+                            </div>
+                        </a>
+                        <div class="products-card">
+                            <div class="products-card__image">
+                                <img src="images/restaurant/image-6.jpg" alt="Изображение PizzaBurger" width="384"
+                                    height="250">
+                            </div>
+                            <div class="products-card__desription">
+                                <div class="products-card__desription--row">
+                                    <h4 class="products-card__desription--title">PizzaBurger</h4>
+                                    <div class="products-card__desription--bage">
+                                        30 мин
+                                    </div>
+                                </div>
+                                <div class="products-card__desription-info">
+                                    <div class="products-card__desription-info--reiting">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.6515 6.24221C14.5553 5.94476 14.2915 5.73349 13.9793 5.70536L9.73947 5.32038L8.06292 1.39623C7.9393 1.10864 7.65776 0.922485 7.34495 0.922485C7.03215 0.922485 6.75061 1.10864 6.62699 1.39691L4.95043 5.32038L0.709893 5.70536C0.398319 5.73417 0.135163 5.94476 0.0384405 6.24221C-0.0582818 6.53966 0.0310434 6.86592 0.266741 7.07158L3.47158 9.88224L2.52655 14.0451C2.45739 14.3512 2.5762 14.6676 2.83016 14.8512C2.96667 14.9498 3.12638 15 3.28744 15C3.4263 15 3.56404 14.9626 3.68766 14.8886L7.34495 12.7028L11.0009 14.8886C11.2684 15.0495 11.6057 15.0349 11.8591 14.8512C12.1131 14.667 12.2318 14.3505 12.1627 14.0451L11.2177 9.88224L14.4225 7.07214C14.6582 6.86592 14.7482 6.54022 14.6515 6.24221Z"
+                                                fill="#FFC107" />
+                                        </svg>
+                                        4.5
+                                    </div>
+                                    <div class="products-card__desription-info--price">От 1100 ₽</div>
+                                    <div class="products-card__desription-info--group">Пицца</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <div class="cart-modal__overlay">
+            <div class="cart-modal">
+                <div class="cart-modal__header">
+                    <h2 class="cart-modal__header--title">Корзина</h2>
+                    <span class="cart-modal__header--close">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.0035 13L25.3506 3.65245C25.6077 3.39513 25.7496 3.05184 25.75 2.68578C25.75 2.31952 25.6081 1.97582 25.3506 1.71891L24.5315 0.900011C24.274 0.642084 23.9307 0.500824 23.5642 0.500824C23.1984 0.500824 22.8551 0.642084 22.5976 0.900011L13.2504 10.247L3.90285 0.900011C3.64573 0.642084 3.30224 0.500824 2.93598 0.500824C2.57012 0.500824 2.22663 0.642084 1.96951 0.900011L1.15 1.71891C0.616667 2.25225 0.616667 3.11973 1.15 3.65245L10.4974 13L1.15 22.3472C0.892683 22.6049 0.751016 22.9482 0.751016 23.3142C0.751016 23.6803 0.892683 24.0236 1.15 24.2811L1.96931 25.1C2.22642 25.3577 2.57012 25.4992 2.93577 25.4992C3.30203 25.4992 3.64553 25.3577 3.90264 25.1L13.2502 15.7529L22.5974 25.1C22.8549 25.3577 23.1982 25.4992 23.564 25.4992H23.5644C23.9305 25.4992 24.2738 25.3577 24.5313 25.1L25.3504 24.2811C25.6075 24.0238 25.7494 23.6803 25.7494 23.3142C25.7494 22.9482 25.6075 22.6049 25.3504 22.3474L16.0035 13Z"
+                                fill="black" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="cart-modal__body">
+                    <div class="cart-item">
+                        <p class="cart-item__title">Ролл угорь стандарт</p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-controls">
+                                -
+                            </button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-controls">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">Ролл угорь стандарт</p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-controls">
+                                -
+                            </button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-controls">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">Ролл угорь стандарт</p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-controls">
+                                -
+                            </button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-controls">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">Ролл угорь стандарт</p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-controls">
+                                -
+                            </button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-controls">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <p class="cart-item__title">Ролл угорь стандарт</p>
+                        <div class="cart-item__controls">
+                            <div class="cart-item__controls--price">250 ₽</div>
+                            <button class="btn btn-controls">
+                                -
+                            </button>
+                            <div class="cart-item__controls--count">1</div>
+                            <button class="btn btn-controls">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-modal__footer">
+                    <div class="cart-modal__footer--price">1250 ₽</div>
+                    <div class="cart-modal__footer-controls">
+                        <button class="btn btn-primary">
+                            Оформить заказ
+                        </button>
+                        <button class="btn btn-outline">
+                            Отмена
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="listing">
-                <div class="listing-item"></div>
-            </div>
-        </main>
+        </div>
         <footer class="footer">
             <div class="container">
                 <div class="footer-box">
-                    <div class="footer-logo logo">
+                    <a class="footer-logo logo" href="./index.html">
                         <img class="logo-image" src="images/logo.png" alt="logo" width="100" height="36">
-                    </div>
+                    </a>
                     <nav class="footer-nav">
                         <ul class="footer-nav__list">
                             <li>Ресторанам
