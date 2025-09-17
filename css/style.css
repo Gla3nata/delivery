@@ -93,7 +93,7 @@ main {
 
 .banner-item {
     background-color: #FFF1B8;
-    background-image: url(images/baner-1.png);
+    background-image: url(../images/baner-1.png);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: contain;
